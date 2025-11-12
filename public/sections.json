@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "section": "Top Selling",
+    "name": "Nestle Original Coffee-Mate Coffee Creamer",
+    "brand": "Nestle",
+    "rating": 4.0,
+    "price": 32.85,
+    "oldPrice": 33.80,
+    "image": "https://i.ibb.co.com/DPs1PVbk/thumbnail-1.jpg",
+    "category": "Coffee & Tea"
+  },
+  {
+    "id": 2,
+    "section": "Top Selling",
+    "name": "Nestle Original Coffee-Mate Coffee Creamer",
+    "brand": "Nestle",
+    "rating": 4.0,
+    "price": 32.85,
+    "oldPrice": 33.80,
+    "image": "https://i.ibb.co.com/WNQv7yym/thumbnail-2-1.jpg",
+    "category": "Coffee & Tea"
+  },
+  {
+    "id": 3,
+    "section": "Top Selling",
+    "name": "Nestle Original Coffee-Mate Coffee Creamer",
+    "brand": "Nestle",
+    "rating": 4.0,
+    "price": 32.85,
+    "oldPrice": 33.80,
+    "image": "https://i.ibb.co.com/TBJ5k20t/thumbnail-3-1.jpg",
+    "category": "Coffee & Tea"
+  },
+ {
+    "id": 4,
+    "section": "Trending Products",
+    "name": "Organic Cage-Free Grade A Large Brown Eggs",
+    "brand": "Organic Farms",
+    "rating": 4.0,
+    "price": 32.85,
+    "oldPrice": 33.80,
+    "image": "https://i.ibb.co.com/KcLZ7Jxr/thumbnail-4-1.jpg",
+    "category": "Dairy"
+  },
+  {
+    "id": 5,
+    "section": "Trending Products",
+    "name": "Seeds of Change Organic Quinoa, Brown, & Red Rice",
+    "brand": "Seeds of Change",
+    "rating": 4.0,
+    "price": 32.85,
+    "oldPrice": 33.80,
+    "image": "https://i.ibb.co.com/67nYBqWB/thumbnail-5-1.jpg",
+    "category": "Grains"
+  },
+  {
+    "id": 6,
+    "section": "Trending Products",
+    "name": "Naturally Flavored Cinnamon Vanilla Light Roast Coffee",
+    "brand": "Nature's Best",
+    "rating": 4.0,
+    "price": 32.85,
+    "oldPrice": 33.80,
+    "image": "https://i.ibb.co.com/TMh22Ds6/thumbnail-6-1.jpg",
+    "category": "Coffee & Tea"
+  },
+  {
+    "id": 7,
+    "section": "Recently Added",
+    "name": "Pepperidge Farm Farmhouse Hearty White Bread",
+    "brand": "Pepperidge Farm",
+    "rating": 4.0,
+    "price": 32.85,
+    "oldPrice": 33.80,
+    "image": "https://i.ibb.co.com/C31Mbz5F/thumbnail-7-1.jpg",
+    "category": "Bakery"
+  },
+  {
+    "id": 8,
+    "section": "Recently Added",
+    "name": "Organic Frozen Triple Berry Blend",
+    "brand": "Organic Foods",
+    "rating": 4.0,
+    "price": 32.85,
+    "oldPrice": 33.80,
+    "image": "https://i.ibb.co.com/bjKNTNfv/thumbnail-8-1.jpg",
+    "category": "Frozen"
+  },
+  {
+    "id": 9,
+    "section": "Recently Added",
+    "name": "Oroweat Country Buttermilk Bread",
+    "brand": "Oroweat",
+    "rating": 4.0,
+    "price": 32.85,
+    "oldPrice": 33.80,
+    "image": "https://i.ibb.co.com/wNDsn0m1/thumbnail-9-1.jpg",
+    "category": "Bakery"
+  },
+  {
+    "id": 10,
+    "section": "Top Rated",
+    "name": "Foster Farms Takeout Crispy Classic Buffalo Wings",
+    "brand": "Foster Farms",
+    "rating": 4.0,
+    "price": 32.85,
+    "oldPrice": 33.80,
+    "image": "https://i.ibb.co.com/RpGdWY8b/thumbnail-10.jpg",
+    "category": "Meat"
+  },
+  {
+    "id": 11,
+    "section": "Top Rated",
+    "name": "Angie's Boomchickapop Sweet & Salty Kettle Corn",
+    "brand": "Angie's",
+    "rating": 4.0,
+    "price": 32.85,
+    "oldPrice": 33.80,
+    "image": "https://i.ibb.co.com/7dj4MX13/thumbnail-11.jpg",
+    "category": "Snacks"
+  },
+  {
+    "id": 12,
+    "section": "Top Rated",
+    "name": "All Natural Italian-Style Chicken Meatballs",
+    "brand": "Hodo Foods",
+    "rating": 4.0,
+    "price": 32.85,
+    "oldPrice": 33.80,
+    "image": " https://i.ibb.co.com/k2fVVLrW/thumbnail-12.jpg",
+    "category": "Meat"
+  }
+]

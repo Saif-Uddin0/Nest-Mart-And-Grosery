@@ -1,0 +1,88 @@
+[
+  {
+    "id": 1,
+    "name": "Cake & Milk",
+    "items": 26,
+    "image": "https://i.ibb.co.com/p6GDHvnd/cat-1.png",
+    "background": "#FFF9EE",
+    "icon":"https://nest-frontend-v6.vercel.app/assets/imgs/theme/icons/category-1.svg"
+  },
+   {
+    "id": 2,
+    "name": "Coffee & Tea",
+    "items": 89,
+    "image": "https://i.ibb.co.com/ZR5k93jN/cat-14.png",
+    "background": "#FFF8E6",
+     "icon":"https://nest-frontend-v6.vercel.app/assets/imgs/theme/icons/category-2.svg"
+  },
+ 
+  {
+    "id": 3,
+    "name": "Peach",
+    "items": 14,
+    "image": "https://i.ibb.co.com/p5jBFkM/cat-3.png",
+    "background": "#FFF3EC",
+     "icon":"https://nest-frontend-v6.vercel.app/assets/imgs/theme/icons/category-3.svg"
+  },
+
+   {
+    "id": 4,
+    "name": "Vegetables",
+    "items": 72,
+    "image": "https://i.ibb.co.com/svFYDwhN/cat-9.png",
+    "background": "#F4EEFF",
+     "icon":"https://nest-frontend-v6.vercel.app/assets/imgs/theme/icons/category-4.svg"
+  },
+ 
+  {
+    "id": 5,
+    "name": "Snack",
+    "items": 56,
+    "image": "https://i.ibb.co.com/1BKqSr2/cat-5.png",
+    "background": "#FFF8EE",
+     "icon":"https://nest-frontend-v6.vercel.app/assets/imgs/theme/icons/category-5.svg"
+  },
+
+   {
+    "id": 6,
+    "name": "Red Apple",
+    "items": 54,
+    "image": "https://i.ibb.co.com/S4VNLgnK/cat-4.png",
+    "background": "#FFECEB",
+     "icon":"https://nest-frontend-v6.vercel.app/assets/imgs/theme/icons/category-6.svg"
+  },
+ 
+  {
+    "id": 7,
+    "name": "Strawberry",
+    "items": 36,
+    "image": "https://i.ibb.co.com/Tqth2kJh/cat-12.png",
+    "background": "#F1FFE9",
+     "icon":"https://nest-frontend-v6.vercel.app/assets/imgs/theme/icons/category-7.svg"
+  },
+  {
+    "id": 8,
+    "name": "Black Plum",
+    "items": 123,
+    "image": "https://i.ibb.co.com/W4xSTmQq/cat-11.png",
+    "background": "#FFF1F2",
+     "icon":"https://nest-frontend-v6.vercel.app/assets/imgs/theme/icons/category-8.svg"
+  },
+  {
+    "id": 9,
+    "name": "Custard Apple",
+    "items": 34,
+    "image": " https://i.ibb.co.com/rGVqZgTg/cat-13.png",
+    "background": "#FFF9EE",
+     "icon":"https://nest-frontend-v6.vercel.app/assets/imgs/theme/icons/category-9.svg"
+  },
+   {
+    "id": 10,
+    "name": "Organic Kiwi",
+    "items": 28,
+    "image": "https://i.ibb.co.com/Vcn7Ygvz/cat-2.png",
+    "background": "#E6F7F1",
+     "icon":"https://nest-frontend-v6.vercel.app/assets/imgs/theme/icons/category-10.svg"
+  }
+ 
+]

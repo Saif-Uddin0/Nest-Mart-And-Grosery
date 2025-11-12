@@ -1,0 +1,47 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body{
+    font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.h1Color{
+    color: #253D4E;
+}
+
+.bgBtn{
+    background-color:#2AA66D;
+    color: white;
+    padding: 12px 26px;
+    text-align: center;
+}
+
+/* Swiper navigation (next/prev) arrows */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #6b7280 !important; /* gray-500 */
+  scale: 0.7; /* make arrows smaller */
+  width: 28px !important;
+  height: 28px !important;
+}
+
+/* hover e thoda dark gray */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #4b5563 !important; /* gray-600 */
+}
+
+/* Pagination bullets (dots) */
+.swiper-pagination-bullet {
+  background: #9ca3af !important; /* gray-400 */
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #6b7280 !important; /* gray-500 */
+}
