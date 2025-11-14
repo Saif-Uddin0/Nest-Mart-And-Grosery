@@ -37,7 +37,7 @@ const Header = () => {
           <img src={logoImg} alt="Nest Logo" className="w-28 sm:w-36" />
         </div>
 
-        {/* Search Bar (desktop only) */}
+        {/* Search (desktop only) */}
         <div className="hidden md:flex items-center border rounded w-full md:max-w-[500px] px-3 py-2">
           <select className="text-sm outline-none text-gray-600 border-r pr-2">
             <option>All Categories</option>
@@ -76,7 +76,7 @@ const Header = () => {
       </div>
 
       {/* Desktop Bottom Menu */}
-      <div className="hidden md:flex items-center justify-between px-4 lg:px-8 py-3 border-t border-gray-200 bg-white">
+      <div className="container mx-auto hidden md:flex items-center justify-between px-4 lg:px-8 py-3 border-t border-gray-200 bg-white">
         <button className="flex items-center gap-2 bg-[#2AA66D] text-white px-4 py-2 rounded-md hover:bg-green-600 transition text-sm md:text-base">
           <FiGrid />
           <span className="font-medium">Browse All Categories</span>
