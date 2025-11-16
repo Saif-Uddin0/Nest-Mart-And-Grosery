@@ -1,62 +1,102 @@
-import React from 'react';
+import React from "react";
 import { FaStar, FaShoppingCart } from "react-icons/fa";
-import { Link } from 'react-router';
+import { Link } from "react-router-dom";
 
-const ShopCard = ({product}) => {
-       const { image,label, labelColor,category,name, brand,rating,price,oldPrice} = product;
-    return (
-        <div>
-              <Link to={`/product/${product.id}`}>
-        <div className="bg-white rounded-2xl p-4 shadow-sm hover:shadow-md   relative">
+const ShopCard = ({ product }) => {
+  const { image, label, labelColor, category, name, brand, rating, price, oldPrice } = product;
+
+  return (
+    <Link to={`/product/${product.id}`}>
       <div
-          className={`absolute -top-0.5 -left-0.5 text-xs text-white px-3 py-1 rounded-tl-lg rounded-br-lg font-medium ${labelColor}`}>
+        className="
+        bg-white rounded-2xl p-4 shadow-sm 
+        hover:shadow-xl hover:-translate-y-1 
+        transition-all duration-300 
+        relative group border border-gray-100 h-full
+      "
+      >
+        {/* Label */}
+        <div
+          className={`
+            absolute top-0 left-0 
+            text-[10px] sm:text-xs text-white 
+            px-3 py-1 rounded-tl-lg rounded-br-lg font-medium 
+            ${labelColor}
+          `}
+        >
           {label}
         </div>
 
-    
-      <div className="mb-3">
-        <img src={image}
-          alt={name}
-          className="lg:w-40 w-100 h-70 lg:h-40 object-contain rounded-lg"
-        />
-      </div>
-
-    
-      <p className="lg:text-xs text-sm text-gray-500 mb-1">{category}</p>
-
-      <h3 className="lg:text-xs text-sm font-semibold hover:text-[#3BB77E] text-[#253D4E]  mb-2">
-        {name}
-      </h3>
-
-     <div className="flex items-center gap-1 mb-2">
-  <FaStar className="w-4 h-4 text-yellow-400 fill-yellow-400" />
-  <FaStar className="w-4 h-4 text-yellow-400 fill-yellow-400" />
-  <FaStar className="w-4 h-4 text-yellow-400 fill-yellow-400" />
-  <FaStar className="w-4 h-4 text-yellow-400 fill-yellow-400" />
-  <FaStar className="w-4 h-4 text-gray-300" />
-  <span className="text-xs text-gray-600 ml-1">({rating})</span>
-</div>
-
-     
-      <p className="lg:text-xs text-sm text-gray-500  mb-3">By <span className='text-[#3BB77E]'>{brand}</span></p>
-
-     <div className='flex justify-between items-center'>
-  <div className="flex items-center gap-2 mb-2">
-        <span className="lg:text-xs text-sm font-bold text-green-600">${price}</span>
-          <span className="lg:text-xs text-sm text-gray-500 line-through">${oldPrice}</span>
-      
-      </div>
-      <button className=" bg-green-100 text-green-700 py-2 rounded-md flex items-center justify-center gap-2 hover:bg-green-200 transition lg:text-xs text-lg font-medium px-2">
-        <FaShoppingCart />
-        <p>Add</p>
-       
-      </button>
-     </div>
-    
-    </div>
-       </Link>
+        {/* Image */}
+        <div className="mb-3 flex justify-center overflow-hidden rounded-lg h-36 sm:h-40">
+          <img
+            src={image}
+            alt={name}
+            className="
+              w-full h-full object-contain 
+              transition-transform duration-500 
+              group-hover:scale-110
+            "
+          />
         </div>
-    );
+
+        {/* Category */}
+        <p className="text-xs sm:text-sm text-gray-500 mb-1">{category}</p>
+
+        {/* Name */}
+        <h3
+          className="
+          text-sm sm:text-base font-semibold 
+          text-[#253D4E] mb-2 
+          group-hover:text-[#3BB77E] transition-colors
+        "
+        >
+          {name}
+        </h3>
+
+        {/* Rating */}
+        <div className="flex items-center gap-1 mb-2">
+          {[...Array(5)].map((_, i) => (
+            <FaStar
+              key={i}
+              className={`w-4 h-4 ${i < 4 ? "text-yellow-400 fill-yellow-400" : "text-gray-300"
+                }`}
+            />
+          ))}
+          <span className="text-xs text-gray-600 ml-1">({rating})</span>
+        </div>
+
+        {/* Brand */}
+        <p className="text-xs sm:text-sm text-gray-500 mb-3">
+          By <span className="text-[#3BB77E] font-medium">{brand}</span>
+        </p>
+
+        {/* Price + Add Button */}
+        <div className="flex justify-between items-center">
+          <div className="flex items-center gap-2">
+            <span className="text-sm sm:text-base font-bold text-green-600">
+              ${price}
+            </span>
+            <span className="text-xs sm:text-sm text-gray-400 line-through">
+              ${oldPrice}
+            </span>
+          </div>
+
+          <button
+            className="
+            bg-green-100 text-green-700 py-1.5 sm:py-2 px-3 
+            rounded-md flex items-center gap-2 
+            hover:bg-green-200 active:scale-95 
+            transition text-xs sm:text-sm font-medium
+          "
+          >
+            <FaShoppingCart />
+            Add
+          </button>
+        </div>
+      </div>
+    </Link>
+  );
 };
 
 export default ShopCard;
