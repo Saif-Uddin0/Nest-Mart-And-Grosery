@@ -76,7 +76,7 @@ const Header = () => {
       </div>
 
       {/* Desktop Bottom Menu */}
-      <div className="container mx-auto hidden md:flex items-center justify-between px-4 lg:px-8 py-3 border-t border-gray-200 bg-white">
+      <div className="container mx-auto hidden md:flex gap-2 items-center justify-between px-2 lg:px-8 py-3 border-t border-gray-200 bg-white">
         <button className="flex items-center gap-2 bg-[#2AA66D] text-white px-4 py-2 rounded-md hover:bg-green-600 transition text-sm md:text-base">
           <FiGrid />
           <span className="font-medium">Browse All Categories</span>
@@ -84,18 +84,14 @@ const Header = () => {
 
         <ul className="flex items-center gap-4 lg:gap-6 font-medium text-gray-700">
           <li>
-            <NavLink to="/deals" className={({ isActive }) => `${isActive ? "text-green-600" : ""} flex items-center gap-2`}>
+            <NavLink to="/" className={({ isActive }) => `${isActive ? "text-green-600" : ""} flex items-center gap-1`}>
               <img src={hotImg} alt="hot deals" />
-              <p className="font-semibold">Deals</p>
+              <p className="font-semibold">Home</p>
             </NavLink>
           </li>
-          <li><NavLink to="/" className={({ isActive }) => isActive ? "text-green-600 font-semibold" : "font-semibold"}>Home</NavLink></li>
           <li><NavLink to="/about" className={({ isActive }) => isActive ? "text-green-600 font-semibold" : "font-semibold"}>About</NavLink></li>
           <li><NavLink to="/shop" className={({ isActive }) => isActive ? "text-green-600 font-semibold" : "font-semibold"}>Shop</NavLink></li>
-          <li><NavLink to="/vendors" className={({ isActive }) => isActive ? "text-green-600 font-semibold" : "font-semibold"}>Vendors</NavLink></li>
-          <li><NavLink to="/mega" className={({ isActive }) => isActive ? "text-green-600 font-semibold" : "font-semibold"}>Mega Menu</NavLink></li>
           <li><NavLink to="/blog" className={({ isActive }) => isActive ? "text-green-600 font-semibold" : "font-semibold"}>Blog</NavLink></li>
-          <li><NavLink to="/pages" className={({ isActive }) => isActive ? "text-green-600 font-semibold" : "font-semibold"}>Pages</NavLink></li>
           <li><NavLink to="/contact" className={({ isActive }) => isActive ? "text-green-600 font-semibold" : "font-semibold"}>Contact</NavLink></li>
         </ul>
 
