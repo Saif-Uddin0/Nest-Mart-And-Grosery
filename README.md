@@ -6,7 +6,7 @@ This project was built using React (Vite) with Tailwind CSS for styling and incl
 ----
 🖼️ Screenshot
 
-(Add your screenshot here — for example, upload public/screenshot.png and use the path below)
+<img src="https://github.com/Saif-Uddin0/Nest-Mart-And-Grosery/blob/main/project-nest.jpg?raw=true" />
 
 
 
